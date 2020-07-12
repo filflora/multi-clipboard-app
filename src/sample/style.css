@@ -1,0 +1,16 @@
+
+
+
+
+.list-cell:even {
+    -fx-background-color: #F2F2F2;
+}
+
+.list-cell:focused {
+    -fx-background-color: #96e1ff;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
