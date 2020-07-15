@@ -48,7 +48,7 @@ public class StorageService {
     private String readFromFile() {
         String content = "";
         try {
-            content = Files.readString(Paths.get(FILE_NAME));
+            content = new String(Files.readAllBytes(Paths.get(FILE_NAME)));
         } catch (IOException e) {
             System.out.println("Can not read file: " + FILE_NAME + ". " + e.getMessage());
         }

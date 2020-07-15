@@ -14,7 +14,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MultiClipboard" options="--add-exports=javafx.graphics/com.sun.javafx.tk=MultiClipboard" />
+      <module name="MultiClipboard" options="" />
     </option>
   </component>
 </project>
